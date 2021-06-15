@@ -6,27 +6,16 @@ let num = 50;
 
 //(num === 50) ? console.log("good") : console.log("not");
 
-//switch (num) {
-//    case "49": 
-//        console.log("49");
-//        break;
-//    case "100":
-//       console.log("100");
-//        break;   
-//    case "460":
-//        console.log("460");
-//        break;
-//    default:
-//       console.log("noo");
-//        break;
-//}
+// switch (num) {
+//     case "49": 
+//         console.log("49");
+//         break;
+//     default:
+//        console.log("noo");
+//         break;
+// }
 
 //      ЦИКЛЫ
-
-// while (num <= 55) {
-//     console.log(num);
-//     num++;
-// }
 
 // do { 
 //     console.log(num);
@@ -35,7 +24,7 @@ let num = 50;
 // while (num <55);
 
 // for (let i = 1; i < 15; i++) {
-//     if (i=== 6){
+//     if (i === 6){
 //         //break;
 //         continue;
 //     }
@@ -44,27 +33,12 @@ let num = 50;
 
 //       ФУНКЦИИ
 
-// function calc(a,b) {
-//     return (a + b);
-// }
-
-// console.log(calc(5, 7));
-
 // function ret() {
 //     return 4 + 6;
 // }
 
 // const anNum = ret();
 // console.log(anNum);
-
-// let logger = function(a, b) {
-//     let answer = a + b;
-//     return (answer); 
-// };
-// console.log(logger(2, 5));
-
-// let mass = ['a', 'b', 'c', 'd'];
-// console.log(mass.slice(2));
 
 //      МЕТОДЫ СТРОК
 
@@ -86,6 +60,50 @@ let num = 50;
 // console.log(parseInt(numb2));
 // console.log(parseFloat(numb2)); 
 
+//      CALLBACK ФУНКЦИИ
 
+// function callbackTest(lang, callback) {
+//     console.log(`Я учу:${lang}?`);
+//     callback();
+// }
 
+// function done() {
+//     console.log('test callback');
+// }
+
+// callbackTest('Java Script', done);
+
+//       ОБЪЕКТЫ
+
+// let options = {
+//     name: 'test',
+//     width: 1024,
+//     disign: [1, 2, 3, 4],
+//     colors: {
+//         border: 'black',
+//         bg: 'red'
+//     },
+//     maketest: function() {
+//         console.log('Test'.toLowerCase());
+//     }
+// };
+
+// options.maketest();
+
+// const {border, bg} = options.colors;
+// console.log(bg);
+// console.log(options);
+
+// console.log(Object.keys(options).length);
+
+// // delete options.height;
+// for (let key in options ) {
+//     if (typeof(options[key]) === 'object') {
+//         for (let i in options[key]){
+//             console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
+//         }
+//     } else {
+//         console.log(`Свойство ${key} имеет значение ${options[key]}`);
+//     }
+// }
 
