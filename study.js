@@ -66,7 +66,7 @@ let num = 50;
 // let mass = ['a', 'b', 'c', 'd'];
 // console.log(mass.slice(2));
 
-//        МЕТОДЫ 
+//      МЕТОДЫ СТРОК
 
 // let str = 'my test string';
 // console.log(str.indexOf('z'));
@@ -79,12 +79,12 @@ let num = 50;
 
 //     МЕТОДЫ ЧИСЕЛ
 
-const numb = 15.75;
-console.log(Math.round(numb));
+// const numb = 15.75;
+// console.log(Math.round(numb));
 
-const numb2 = "54.6px";
-console.log(parseInt(numb2));
-console.log(parseFloat(numb2)); 
+// const numb2 = "54.6px";
+// console.log(parseInt(numb2));
+// console.log(parseFloat(numb2)); 
 
 
 
