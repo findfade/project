@@ -76,7 +76,7 @@ let num = 50;
 //       ОБЪЕКТЫ
 
 // let options = {
-//     name: 'test',
+//     name: 'Test',
 //     width: 1024,
 //     disign: [1, 2, 3, 4],
 //     colors: {
@@ -84,7 +84,7 @@ let num = 50;
 //         bg: 'red'
 //     },
 //     maketest: function() {
-//         console.log('Test'.toLowerCase());
+//         console.log(options.name.toLowerCase());
 //     }
 // };
 
@@ -96,7 +96,7 @@ let num = 50;
 
 // console.log(Object.keys(options).length);
 
-// // delete options.height;
+// delete options.height;
 // for (let key in options ) {
 //     if (typeof(options[key]) === 'object') {
 //         for (let i in options[key]){
@@ -106,4 +106,30 @@ let num = 50;
 //         console.log(`Свойство ${key} имеет значение ${options[key]}`);
 //     }
 // }
+
+//          МАССИВЫ
+
+// let arr = [-1, 23, 3, 48, 6, 8];
+// function compareNum (a, b) {return a - b;}
+// arr.sort(compareNum); // сортировка по величине 
+// console.log(arr);
+
+// arr.forEach(function (number, i, arr) { 
+//     // number - название элемента; i - порядковый номер элемента; 
+//     //arr - ссылка на массив для работы
+//     console.log(`${i}: ${number} внутри массива ${arr}`);
+// });
+// let strin = 'я, мы, ты, вы, он, она, оно';
+// let arrStr = strin.split(', '); // split позволяет сделать массив из строки
+// strin = arrStr.join(', '); // join наоборот делает строку из массива; strin до и после не отличается 
+// arrStr.sort(); 
+
+// for (let value in arr) {
+//     console.log(arr[value]);
+// }
+// // "for of" с массивами выводит индексы 
+// for (let value of arr) {
+//     console.log(value);
+// }
+// // а "for in" значения 
 
