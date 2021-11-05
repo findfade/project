@@ -62,16 +62,16 @@ let num = 50;
 
 //      CALLBACK ФУНКЦИИ
 
-// function callbackTest(lang, callback) {
-//     console.log(`Я учу:${lang}?`);
-//     callback();
-// }
+//  function callbackTest(lang, callback) {
+//      console.log(`Я учу: ${lang}`);
+//      callback();
+//  }
 
-// function done() {
-//     console.log('test callback');
-// }
+//  function done() {
+//      console.log('test callback');
+//  }
 
-// callbackTest('Java Script', done);
+//  callbackTest('Java Script', done );
 
 //       ОБЪЕКТЫ
 
@@ -107,12 +107,17 @@ let num = 50;
 //     }
 // }
 
+// const clone = Object.assign({}, options);
+
 //          МАССИВЫ
 
 // let arr = [-1, 23, 3, 48, 6, 8];
 // function compareNum (a, b) {return a - b;}
 // arr.sort(compareNum); // сортировка по величине 
 // console.log(arr);
+
+// const oldArr = ['a', 'b', 'c'];
+// const newArr = oldArr.slice();
 
 // arr.forEach(function (number, i, arr) { 
 //     // number - название элемента; i - порядковый номер элемента; 
@@ -133,3 +138,24 @@ let num = 50;
 // }
 // // а "for in" значения 
 
+// const video = ['youtube', 'vimeo', 'rutube'],
+//       blogs = ['wordpress', 'livejournal', 'blogger'],
+//       internet = [...video, ...blogs, 'facebook'];
+
+//           ПРОТОТИПНО-ОРИЕНТИРОВАННОЕ ПРОГРАММИРОВАНИЕ
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function(){
+//         console.log('Hello!');
+//     }
+// };
+
+// const jonh = {
+//     health: 100
+// };
+
+// Object.setPrototypeOf(jonh, soldier); // устанавливает прототип для уже готового объекта
+
+// const jonh = Object.create(soldier);  // устанавливает прототип при создании объекта 
